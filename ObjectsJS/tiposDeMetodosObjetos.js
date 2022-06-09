@@ -5,7 +5,8 @@ const object = {
 
 const objectMethod = (metodo, objeto) => {
     let object = Object[metodo](objeto) 
-    console.log(`Método ${metodo}: ${JSON.stringify(object)}`)
+    console.log(`Método ${metodo}: ${JSON.stringify(object)}
+    `)
 }
 
 objectMethod('create', object)      // cria objeto vazio, mas independente de 'object'
