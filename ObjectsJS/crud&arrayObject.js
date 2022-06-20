@@ -10,7 +10,11 @@ const crudObjetc = () => {
   // imprime o parâmetro passado em formato JSON
 
   // Create new key with value
-  object.cpf = "123456789";
+  const createKey = (key, value) => {
+    object[key] = value
+  }
+
+  createKey('cpf', '123456789')
 
   // Update a value key
   object.name = "Luciana Soares";
