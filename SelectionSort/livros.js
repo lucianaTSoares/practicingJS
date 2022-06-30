@@ -1,4 +1,4 @@
-export const livros = [
+const livros = [
   {
     livro: "Java",
     preco: 20,
